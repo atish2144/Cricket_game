@@ -1,0 +1,61 @@
+.lb1,
+.lb2 {
+  font-size: 30px;
+}
+.txt2 {
+  margin-left: 200px;
+}
+
+.txt2 {
+  width: 200px;
+  height: 25px;
+  margin-left: 115px;
+}
+
+.incdec {
+  width: 30px;
+  height: 25px;
+}
+
+.txt1 {
+  width: 200px;
+  height: 25px;
+}
+
+.container {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.combobox1 {
+  width: 200px;
+  height: 25px;
+}
+
+.btn1 {
+  width: 200px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.cbitem {
+  width: 200px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+#table-value
+{
+  /* border: 1px solid black; */
+  /* border-collapse: collapse; */
+  text-align: left;
+  padding-left: 5px;
+  padding-top:  5px;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+
+#table-value
+{
+  
+}

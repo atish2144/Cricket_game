@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <h1 style="text-align: center">Cricket Team Maker</h1>
+  <div class="container">
+    <div class="container1">
+      <label class="lb1">Player Name</label>
+      <input type="text" id="input1" class="txt1" placeholder="Enter a Player" />
+    </div>
+
+    <div class="container2">
+      <label class="lb2">Age</label>
+      <input type="text" id="input2" class="txt2" placeholder="Enter a age" />
+      <button class="incdec" onclick="inc()">+</button>
+      <button class="incdec" onclick="dec()">-</button>
+    </div>
+
+    <div class="container3">
+      <label class="lb1">Player Type</label>
+
+      <input type="checkbox" id="cbx1">Batsman</input>
+      <input type="checkbox" id="cbx2">Bowler</input>
+
+      <!-- <select id="mySelect" class="cbitem">
+        <option value="Choose The Option">Choose The Option</option>
+        <option value="Batsman">Batsman</option>
+        <option value="Bowler">Bowler</option>
+        <option value="All Rounder">All Rounder</option>
+
+      </select> -->
+    </div>
+
+    <button class="btn1" onclick="addPlayer()">Add Player</button>
+
+    <br />
+    <div class="container1">
+      <div id="table-value"></div>
+      <div id="No-table-value"></div>
+
+    </div>
+
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
